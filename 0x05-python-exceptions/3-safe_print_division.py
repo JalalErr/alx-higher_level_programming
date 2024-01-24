@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def safe_print_list_integers(my_list=[], x=0):
+def list_division(my_list_1, my_list_2, list_length):
     """Returns the division of a by b."""
 
     try:
