@@ -8,11 +8,9 @@ def square_matrix_simple(matrix=[]):
     Returns:
         _type_: new_matrix : the results of  multiplying each element in matrix.
     """
-    new_matrix = [0] * len(matrix)
+    new_matrix = []
     if len(matrix) == 0:
         return new_matrix
-    for i in range(0, len(matrix)):
-        for j in range(0, i):
-            new_matrix[i][j] = matrix[i][j] * matrix[i][j]
-    
+
+    new_matrix = [[i*i for i in j] for j in matrix]
     return new_matrix
