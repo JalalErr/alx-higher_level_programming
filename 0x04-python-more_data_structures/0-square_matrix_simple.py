@@ -6,7 +6,7 @@ def square_matrix_simple(matrix=[]):
         matrix (list).
 
     Returns:
-        _type_: new_matrix : the results of  multiplying each element in matrix.
+        type: new_matrix : the results of  multiplying each element in matrix.
     """
     new_matrix = []
     if len(matrix) == 0:
